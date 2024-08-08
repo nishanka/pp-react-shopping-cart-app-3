@@ -1,0 +1,39 @@
+.cart-item {
+    display: flex;
+    align-items: center;
+}
+
+.cart-item__image {
+    width: 75px;
+    padding: 5px;
+    text-align: left;
+}
+
+.cart-item__image img {
+  width: 100%;
+  height: auto;
+}
+
+.cart-item__title {
+    width: 160px;
+}
+
+.cart-item__price {
+    width: 70px;
+    text-align: center;
+}
+
+.cart-item__quantity {
+    width: 100px;
+    text-align: center;
+}
+
+.cart-item__quantity button {
+    width: 26px;
+    height: 26px;
+}
+
+.cart-item__totalPrice {
+    width: 85px;
+    text-align: right;
+}

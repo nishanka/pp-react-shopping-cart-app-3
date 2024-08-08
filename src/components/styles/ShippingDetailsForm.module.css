@@ -1,0 +1,36 @@
+.form {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.form input {
+    border: 1px solid var
+}
+.data-field--small {
+    width: 48%;
+}
+
+.data-field--small input {
+    width: 100%;
+}
+
+.data-field--full {
+    width: 100%;
+}
+
+
+input.error {
+    border-color: red;
+}
+
+.error-message {
+    font-size: 13px;
+    /* color: red; */
+}
+
+@media only screen and (max-width: 480px) {
+    .data-field--small {
+        width: 100%;
+    }
+}

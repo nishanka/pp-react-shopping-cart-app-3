@@ -1,0 +1,39 @@
+.checkout-item {
+    display: flex;
+    align-items: center;
+}
+
+.checkout-item__image {
+    width: 75px;
+    padding: 5px;
+}
+
+.checkout-item__image img {
+  width: 100%;
+  height: auto;
+}
+
+.checkout-item__title {
+    width: 160px;
+    max-width: 160px;
+}
+
+.checkout-item__price {
+    width: 70px;
+    text-align: center;
+}
+
+.checkout-item__quantity {
+    width: 100px;
+    text-align: center;
+}
+
+.checkout-item__quantity button {
+    width: 26px;
+    height: 26px;
+}
+
+.checkout-item__totalPrice {
+    width: 70px;
+    text-align: right;
+}
